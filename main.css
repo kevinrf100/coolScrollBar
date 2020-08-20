@@ -46,6 +46,8 @@ section p {
     top: 0;
     right: 0;
     width: 0.6rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
     /* Colocar o background com linear-gradient */
     background: linear-gradient(to top, #008aff, #00ffe7);
     animation: animate 5s linear infinite;

@@ -16,9 +16,15 @@ section h2 {
 }
 
 section a {
+    width: 11rem;
     border-style: solid;
     border-radius: 0.8rem;
     text-decoration: none;
+}
+
+section .buttons {
+    display: flex;
+    flex-direction: column;
 }
 
 section p {

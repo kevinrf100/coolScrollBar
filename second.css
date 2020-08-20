@@ -25,6 +25,7 @@ section a {
 section .buttons {
     display: flex;
     flex-direction: column;
+    
 }
 
 section p {
