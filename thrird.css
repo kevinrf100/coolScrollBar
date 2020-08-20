@@ -16,37 +16,28 @@ section h2 {
 }
 
 section a {
-    width: 11rem;
     border-style: solid;
     border-radius: 0.8rem;
     text-decoration: none;
-}
-
-section .buttons {
-    display: flex;
-    flex-direction: column;
 }
 
 section p {
     margin-top: 1.2rem;
     font-size: 1.2rem;
     color: #ffffff;
+    text-align: justify;
 }
 
 ::-webkit-scrollbar {
-    width: 0.5rem;
+    width: 1.2rem;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(#4cff46, #2fff00);
-    border-radius: 6px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(#4946ff, #0400ff);
+    background: blue;
     border-radius: 6px;
 }
 
 ::-webkit-scrollbar-track {
+    border: 0.4rem solid #232943;
     background: rgba(0, 0, 0, 1);
   }
